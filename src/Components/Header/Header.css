@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.header{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(11,12,27);
+    color: rgb(243, 234, 234);
+    height: 75px;
+    width: 100%;
+    display: flex;  
+}
+
+.header__button{
+    margin-right: 20px;
+}
+
+.logo{
+    margin-left: 50px;
+    font-size: 42px;
+    display: flex;
+    align-items: center; 
+    margin-right: 520px;
+    font-weight: bold;
+}
+.icon{
+    height: 22px;
+    margin-top: 30px;
+    color: rgba(174, 175, 177, 0.999);
+}
+
+.icon__text{
+    margin-left: 5px;
+    font-size: 12px;
+    color: rgba(174, 175, 177, 0.999);
+    margin-top: 33px;
+}
+
+.icon__section{
+    display: flex;
+}
+
+.icon__section:hover .icon ,
+.icon__section:hover .icon__text
+{
+    color: white;
+    cursor: pointer;
+}
+
+.free-trial{
+    background-color: rgb(0,96,254);
+    border-radius: 25px;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer !important; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.free-trial:hover{
+    background-color: blue;
+}
+
+.login{
+    background-color:rgb(26,27,46);
+    border-radius: 25px;
+    padding: 8px 25px;
+    border: 1px solid  rgb(82, 83, 92);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color:  rgba(174, 175, 177, 0.999);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: white;
+    border: 1px solid rgb(128, 125, 125); 
+}
+
+.custom__hr{
+    border: 1px solid rgb(36,37,50);
+}
+
+#header__second{
+    height: 50px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+    margin-right: 250px;
+}
+
+.phn__icon{
+  margin-right: 10px;
+}
+.routes{
+    display: flex;
+    align-items: center;
+}
+
+.routes__name{
+    text-decoration: none;
+    color: rgba(174, 175, 177, 0.999);
+    margin-right: 25px;
+}
+
+.routes :hover{
+    color: white;
+}
+
