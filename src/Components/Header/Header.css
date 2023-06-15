@@ -18,11 +18,11 @@
 }
 
 .logo{
-    margin-left: 50px;
+    margin-left: 220px;
     font-size: 42px;
     display: flex;
     align-items: center; 
-    margin-right: 520px;
+    margin-right: 800px;
     font-weight: bold;
 }
 .icon{
@@ -96,8 +96,8 @@
 .number{
     display: flex;
     align-items: center;
-    margin-left: 47px;
-    margin-right: 250px;
+    margin-left: 215px;
+    margin-right: 360px;
 }
 
 .phn__icon{
@@ -106,6 +106,7 @@
 .routes{
     display: flex;
     align-items: center;
+    margin-left: 120px;
 }
 
 .routes__name{

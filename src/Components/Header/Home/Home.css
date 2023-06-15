@@ -10,10 +10,10 @@
 }
 
 .flex-item:nth-child(1){
-    flex-basis: 67%;
+    flex-basis: 60%;
 }
 .flex-item:nth-child(2){
-    flex-basis: 33%;
+    flex-basis: 30%;
 }
 
 .section__one{
@@ -24,7 +24,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 62px;
-    margin-left: 105px;
+    margin-left: 250px;
     padding-top: 100px;
 
 }
@@ -35,7 +35,7 @@
 
 
 .home__description{
-    margin-left: 105px;
+    margin-left: 250px;
     padding-top: 33px;
     padding-bottom: 30px;
     color: rgb(118,120,139);
@@ -46,8 +46,7 @@
 }
 
 .home__iconText{
-    margin-left: 105px;
-    /* padding-top: 30px; */
+    margin-left: 250px;
     display: flex;
     align-items: center;
     border-top-left-radius: 50px; 
@@ -55,7 +54,7 @@
     border-bottom-left-radius: 50px; 
     border-bottom-right-radius: 50px; 
     background-color:rgb(26,27,46);
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .faBell{
@@ -73,7 +72,7 @@
     margin-top: 60px;
 }
 .button__get{
-    margin-left: 105px;
+    margin-left: 250px;
     background-color: rgb(0,96,254);
     border-radius: 2px;
     color: white;
@@ -111,7 +110,7 @@
     height: auto;
     max-width: 70%;
     margin-top: 80px;
-    margin-right: 105px;
+    margin-right: 290px;
     margin-bottom: 30px;
 }
 
@@ -132,7 +131,7 @@
     border-radius: 5px;
     color: white;
     padding: 15px 10px;
-    margin-left: 35px;
+    margin-left: 50px;
     width: 80%;
     margin-bottom: 15px;
 }
@@ -142,11 +141,11 @@
     background-color: rgb(21,205,114);
     border-radius: 3px;
     padding: 17px 10px;
-    margin-left: 35px;
+    margin-left: 50px;
     width: 80%;
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -159,25 +158,27 @@
     flex-grow: 1;
     border: none;
     border-top: 1px solid rgb(82, 83, 92);
-    margin-left: 35px;
+    margin-left: 50px;
     margin-right: 10px;
+   
   }
   
   .line2{
     flex-grow: 1;
     border: none;
     border-top: 1px solid rgb(82, 83, 92);
-    margin-left: 9px;
-    margin-right: 38px;
+     margin-left: 10px;
+    margin-right: 50px;
   }
   
-  .text {
-    padding: 0 10px;
+  .hrtext {
+    
     color:  rgba(174, 175, 177, 0.999);
   }
 
   .button_authentication{
     display: flex;
+    margin-left: 120px;
   }
 
   .goggle__button{
@@ -189,7 +190,7 @@
     padding: 10px 25px;
     border: 1px solid  rgb(82, 83, 92);
     cursor: pointer;
-    margin-left: 35px;
+   margin-right: 20px;
     margin-top: 20px;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -206,13 +207,14 @@
   }
 
 .Last__description{
-    margin-left: 35px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 45px;
     margin-top: 20px;
     display: flex;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .terms{
     color: rgb(5,96,254);
@@ -222,16 +224,16 @@
 }
 
 .icon__box{
-    padding-left: 105px;
     padding-top: 70px;
     padding-bottom: 60px;
+    justify-content: center;
 }
 .box_icon{
     height: 54px;
     width: 54px;
     margin-bottom: 25px;
     padding-top: 30px;
-    padding-left: 5px;
+    padding-left: 3px;
 }
 
 .box{
@@ -254,7 +256,8 @@
     height: 100%;
     width: 100%;
     color: white;
-    padding-left: 105px;
+    /* padding-left: 105px; */
+    justify-content: center;
     padding-bottom: 30px;
 }
 .popular__Text{
@@ -298,4 +301,20 @@
     align-items: center;
     text-align: center;
     margin-left: 55px;
+}
+
+.hosting__products{
+    background-color: rgb(11,12,27);
+    color: white;  
+    height: 100%;
+}
+
+.icon__feature-text{
+    padding-top: 50px;
+}
+
+.icon__text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }

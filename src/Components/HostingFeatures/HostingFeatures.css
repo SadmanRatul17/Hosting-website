@@ -1,0 +1,21 @@
+.text{
+    color: blue;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text__description{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.hosting__feature{
+    margin-left: 99px;
+    margin-right: 99px;
+}

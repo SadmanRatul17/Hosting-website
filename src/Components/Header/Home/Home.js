@@ -3,6 +3,7 @@ import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBell,
+  faCircleCheck,
   faCloudArrowDown,
   faCommentSlash,
   faList,
@@ -16,6 +17,7 @@ import ubuntu from "../../Assets/ubuntu.png";
 import derian from "../../Assets/linux.png";
 import centOs from "../../Assets/centos.png";
 import open from "../../Assets/open.png";
+import HostingFeatures from "../../HostingFeatures/HostingFeatures";
 
 const Home = () => {
   return (
@@ -75,7 +77,7 @@ const Home = () => {
           </form>
           <div className="container">
             <hr className="line1" />
-            <p className="text">or sign up with</p>
+            <p className="hrtext">or sign up with</p>
             <hr className="line2" />
           </div>
           <div className="button_authentication">
@@ -96,7 +98,7 @@ const Home = () => {
           <div className="Last__description">
             <small>
               $100, 60-day free trial requires valid credit card. By signing up,
-              you agree to the{" "}
+              you agree to the
               <a className="terms" href="#">
                 Terms of Service
               </a>
@@ -163,6 +165,40 @@ const Home = () => {
           <div className="card">
             <img className="card__windows" src={open} alt="" srcset="" />
             <p>OPen suse</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="hosting__products">
+        <HostingFeatures></HostingFeatures>
+
+        <div className="icon__text">
+          <div>
+            <FontAwesomeIcon
+              className="h-3.5 w-3.5 text-blue-700 ml-5"
+              icon={faCircleCheck}
+            />
+            <small className="text-slate-400 ml-2 text-sm">
+              Backups monthly
+            </small>
+          </div>
+          <div>
+            <FontAwesomeIcon
+              className="h-3.5 w-3.5 text-blue-700 ml-5"
+              icon={faCircleCheck}
+            />
+            <small className="text-slate-400 ml-2 text-sm">
+              Free white-glove migrations
+            </small>
+          </div>
+          <div>
+            <FontAwesomeIcon
+              className="h-3.5 w-3.5 text-blue-700 ml-5"
+              icon={faCircleCheck}
+            />
+            <small className="text-slate-400 ml-2 text-sm">
+              Staging enviroments, ande more.
+            </small>
           </div>
         </div>
       </section>

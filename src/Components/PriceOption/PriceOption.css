@@ -1,0 +1,62 @@
+.card__option{
+    height: 100%;
+    background-color:rgb(20,21,38) ;
+    border-right:1px solid rgb(40, 40, 61) ;
+    padding-left: 55px;
+    padding-top: 25px;
+}
+
+.plan__name{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.plan__description{
+    color:rgb(125,147,168);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.plan__price{
+     font-weight: 700;
+     font-size: 30px;
+}
+
+.margin{
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.plan__button{
+    background-color: rgb(0,96,254);
+    border-radius: 2px;
+    color: white;
+    border: none;
+    cursor: pointer !important; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 85px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.plan__top{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.plan__avail{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
