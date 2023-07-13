@@ -22,7 +22,7 @@ const PriceOption = ({ option }) => {
           <Feature feature={feature}></Feature>
         ))}
 
-        <p className="plan__avail">Website Builder Availble</p>
+        <p className="plan__avail">Website Builder Available</p>
         <div className="mb-10">
           {websiteBuilder.map((feature) => (
             <div className="flex items-center ">

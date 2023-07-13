@@ -316,5 +316,6 @@
 .icon__text{
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+    
 }

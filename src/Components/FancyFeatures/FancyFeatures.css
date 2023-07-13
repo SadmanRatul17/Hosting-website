@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;900&family=Roboto&display=swap');
+
+.fancy_feature{
+   background-color: rgb(20,21,38);
+   height: auto;
+   width: 100%;
+}
+.color{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.items{
+    height: 300px;
+    width: 230px; 
+    background-color: rgb(26,27,46);
+    margin-bottom: 20px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+.image{
+    padding-top: 20px;
+}
+
+.white1{
+    color: white;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.white2{
+    color: rgb(145,140,140);
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    gap: 0px;
+}
+
+.fancy{
+    padding-top: 20px;
+    margin-left: 415px;
+    margin-right: 415px;
+    padding-bottom: 60px;
+}
+.right-arrow{
+    padding-top: 30px;
+    padding-left: 155px;
+}
+
+.item :hover{
+    background-color: rgb(55, 56, 67);
+    cursor: pointer;
+}

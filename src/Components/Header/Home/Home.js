@@ -18,6 +18,11 @@ import derian from "../../Assets/linux.png";
 import centOs from "../../Assets/centos.png";
 import open from "../../Assets/open.png";
 import HostingFeatures from "../../HostingFeatures/HostingFeatures";
+import FancyFeatures from "../../FancyFeatures/FancyFeatures";
+import Vps from "../../Vps_Plans/Vps";
+import Testimonial from "../../Testimonial/Testimonial";
+import FAQ from "../../FAQ/FAQ";
+import Footer from "../../Footer/Footer";
 
 const Home = () => {
   return (
@@ -201,6 +206,22 @@ const Home = () => {
             </small>
           </div>
         </div>
+      </section>
+
+      <section className="fancy_feature">
+        <FancyFeatures></FancyFeatures>
+      </section>
+      <section>
+        <Vps></Vps>
+      </section>
+      <section>
+        <Testimonial></Testimonial>
+      </section>
+      <section>
+        <FAQ></FAQ>
+      </section>
+      <section>
+        <Footer></Footer>
       </section>
     </div>
   );
